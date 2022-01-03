@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+input[type=text], input[type=password] {
+  width: 40rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button {
+  background-color: rgb(87, 252, 235);
+  color: black;
+  padding: 14px 11px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20em;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.logo {
+  width: 18rem;
+}
+
+.log-back {
+  background-color: rgb(87, 252, 235);
+  color: black;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.card:hover {
+	text-shadow: none !important;
+	box-sizing: border-box !important;
+	cursor: pointer !important;
+	transition: all 0.3s ease !important;
+	-webkit-transform: scale(1.1) !important;
+	-ms-transform: scale(1.1) !important;
+	transform: scale(1.1) !important;
+	z-index: 2;
+}
