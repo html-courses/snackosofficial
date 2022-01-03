@@ -34,7 +34,7 @@ include("./filemain.php");
 <p>И така вече сте готови вие създадохте вашия първи уебсайт!</p>
 
 <h1>Изтегли кода:</h1>
-<p><a href="http://localhost/snackos/snackosapp/web/www/lesson_dowlnloads/index.html" class="w3-button w3-blue" onclick="change_text()" id="install" download>Изтегли кода</a></p>
+<p><a href="../lesson_dowlnloads/index.html" class="w3-button w3-blue" onclick="change_text()" id="install" download>Изтегли кода</a></p>
 <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
 
 <script>
